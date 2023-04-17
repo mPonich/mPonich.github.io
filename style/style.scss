@@ -52,13 +52,17 @@ header {
     margin: 0 10px;
     color: #48403e;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
     font-weight: 500;
     font-size: 25px;
     font-style: italic;
     max-width: 450px;
     width: 100%;
+    p {
+      margin: 10px;
+    }
   }
 }
 .main {
@@ -372,6 +376,7 @@ header {
       margin: 10px 0px;
       display: flex;
       flex-direction: column;
+      align-items: center;
       p {
         margin: 5px;
         font-size: 80%;
@@ -531,6 +536,7 @@ header {
       margin: 10px 0px;
       display: flex;
       flex-direction: column;
+      align-items: center;
       p {
         margin: 5px;
       }
