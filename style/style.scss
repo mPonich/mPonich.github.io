@@ -289,11 +289,12 @@ header {
       padding: 0px;
       h3 {
         color: #48403e;
-        font-size: 46px;
+        font-size: 40px;
         font-weight: 300;
         font-style: italic;
         max-width: 750px;
         width: 100%;
+        text-align: center;
       }
       .call {
         height: 65px;
@@ -498,7 +499,7 @@ header {
       .wraper {
         flex-wrap: wrap;
         h3 {
-          font-size: 30px;
+          font-size: 25px;
           text-align: center;
         }
         .call {
