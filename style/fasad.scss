@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,300;1,500;1,700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.fasad {
+  .container {
+    margin: 20px auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: rgba(#f7f7f7, $alpha: 1);
+    border-radius: 30px;
+    .descriptor {
+      text-align: left;
+      font-size: 25px;
+      font-weight: 300;
+      h4 {
+        text-align: center;
+        color: #48403e;
+        font-weight: 500;
+        font-size: 35px;
+      }
+      li {
+        margin-top: 15px;
+        font-size: 30px;
+      }
+    }
+    .goods {
+      margin-top: 10px;
+      display: flex;
+      align-items: end;
+      flex-direction: column;
+      .logo_vodostok {
+        .logo {
+          height: auto;
+          width: 200px;
+        }
+      }
+      .vodostok {
+        margin-top: 20px;
+        height: auto;
+        min-width: 95%;
+      }
+    }
+  }
+}
+
+@media (min-width: 240px) and (max-width: 406px) {
+  .fasad {
+    .container {
+      .descriptor {
+        font-size: 18px;
+        h4 {
+          font-size: 18px;
+        }
+        li {
+          font-size: 20px;
+        }
+      }
+      .goods {
+        .logo_vodostok {
+          .logo {
+            height: auto;
+            width: 100%;
+          }
+        }
+        .vodostok {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 407px) and (max-width: 760px) {
+  .fasad {
+    .container {
+      .descriptor {
+        font-size: 25px;
+        h4 {
+          font-size: 25px;
+        }
+        p {
+          font-size: 20px;
+        }
+        li {
+          font-size: 25px;
+        }
+      }
+      .goods {
+        .vodostok {
+          height: auto;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 761px) and (max-width: 950px) {
+  .fasad {
+    .container {
+      .descriptor {
+        li {
+          font-size: 30px;
+        }
+      }
+      .goods {
+        .vodostok {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

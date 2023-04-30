@@ -71,30 +71,32 @@ body {
 @media (min-width: 240px) and (max-width: 406px) {
   .metal {
     padding: 5px;
-    .title {
-      font-size: 25px;
-    }
-    .monterey {
-      .monterey_photo {
-        max-width: 100%;
+    .container {
+      .title {
+        font-size: 20px;
       }
-      .descriptor {
-        font-size: 18px;
-      }
-      .preference {
-        li {
-          margin-left: -30px;
-          padding: 5px;
+      .monterey {
+        .monterey_photo {
+          max-width: 100%;
         }
-        h3 {
-          font-size: 20px;
+        .descriptor {
+          font-size: 18px;
         }
-      }
-      .photo_home {
-        img {
-          margin-top: 20px;
-          width: 90%;
-          height: auto;
+        .preference {
+          li {
+            margin-left: -30px;
+            padding: 5px;
+          }
+          h3 {
+            font-size: 20px;
+          }
+        }
+        .photo_home {
+          img {
+            margin-top: 20px;
+            width: 90%;
+            height: auto;
+          }
         }
       }
     }
